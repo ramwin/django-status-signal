@@ -14,10 +14,11 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='django-status-signal',
 
-    version='0.0.1',
+    version='0.0.2',
 
     description='enhanced django signal which enable you to trigger a signal only if the model instance is in a certain status',
     long_description=long_description,
+    long_description_content_type="text/markdown",
 
     # The project's main homepage.
     url='https://github.com/ramwin/django-status-signal',
